@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0
+  }
+  [class*="col-"] {
+      float: left;
+      padding: 15px;
+      border: 0px solid grey;
+
+  }
+  .row::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  .container{
+    width:85%;
+    margin:0 auto;
+  }
+  .fares{
+    padding: 0px;
+    margin: 0px
+  }
+  .fares1{
+    margin-bottom: 5px
+  }
+ a{
+    color: #F76301;
+  }
+
+  a:hover {
+    color: #cd6133;
+    text-decoration: none;
+  }
+
+  .footer{
+    font-size: 25px
+  }
+
+   .header{
+    height: 90px;width: 230px;float: right;font-size: 90px 230px ; padding-right:  50px
+  }
+  /* youcef*/
+  .nav{
+  width: 100%;
+  height: 65px;
+  background-color: #444
+}
+.nav .linkm{
+  margin-left:0%
+
+}
+.nav li{
+  display: inline-block;
+  float: right;
+  padding: 5px 25px;
+  margin: 0px 10px;
+
+}
+.linkm i{
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  color: #fff
+}
+.linkm li span{
+  font-size: 20px;
+  color: #fff
+}
+.nav li a{
+     text-decoration: none;
+
+}
+.nav li a .fac:hover{
+    color: blue
+}
+.nav li a .you:hover{
+    color: red
+}
+.nav li a .star:hover{
+    color: #f0ff00
+}
+.nav li a .bri:hover{
+    color: brown
+}
+.nav li:hover{
+      background-color: orange;
+}
+.footer{
+    text-align:center;
+    width: 100%;
+    padding: 20px;
+    background-color: #444;
+    height: 81px;
+    margin: 0
+
+}
+.footer .p{
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 25px
+}
+.footer a{
+  color: blue
+}
+.sliderr:hover{
+   opacity: 0.5 black
+}
+li a .spen{
+  font-size: 110.1%;
+  color: #fff;
+}
+.nav li .mar{
+	margin-top: 30%
+}
+.hb-button{
+  float: right;
+  background:#222;
+  color: #ffffffff;
+  border:none;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor:pointer;
+  display: none
+}
+.toggle{
+  width: 100%;
+  padding: 10px 20px;
+  text-align: right ;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 30px;
+  display: none
+}
+@media (max-width: 1250px)
+{
+  .toggle{
+    display: block
+         }
+  .nav ul li a{
+    display: block !important;
+         }
+}
